@@ -35,7 +35,7 @@ class ProfilController extends Controller
             // $inc = $queryInc[0]->Auto_increment;
 
             // menyimpan data file yang diupload ke variabel $file
-            $foto = $request->file('logo');
+            $logo = $request->file('logo');
 
             $nama_file = $profil->logo;
 
