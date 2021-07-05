@@ -35,7 +35,7 @@ class ProfilController extends Controller
             // $inc = $queryInc[0]->Auto_increment;
 
             // menyimpan data file yang diupload ke variabel $file
-            $logo = $request->file('logo');
+            $profil = $request->file('logo');
 
             $nama_file = $profil->logo;
 
@@ -43,7 +43,7 @@ class ProfilController extends Controller
             $tujuan_upload = 'image/';
             $logo->move($tujuan_upload, $nama_file);
 
-            $data['logo'] = $nama_file;
+            $data['profil'] = $nama_file;
         }
 
         if ($request->foto != "" || $request->foto != null) {
