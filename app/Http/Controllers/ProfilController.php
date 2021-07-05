@@ -43,7 +43,7 @@ class ProfilController extends Controller
             $tujuan_upload = 'image/';
             $foto->move($tujuan_upload, $nama_file);
 
-            $data['foto'] = $nama_file;
+            $data['logo'] = $nama_file;
         }
 
         if ($request->foto != "" || $request->foto != null) {
