@@ -41,7 +41,7 @@ class ProfilController extends Controller
 
             // isi dengan nama folder tempat ke mana file diupload
             $tujuan_upload = 'image/';
-            $foto->move($tujuan_upload, $nama_file);
+            $logo->move($tujuan_upload, $nama_file);
 
             $data['logo'] = $nama_file;
         }
