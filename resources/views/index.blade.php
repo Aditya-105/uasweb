@@ -126,6 +126,7 @@
         <div class="m-8 shadow-md rounded overflow-hidden"><img data-src="{{ asset('image/portfolio3.jpg') }}" src="{{ asset('image/portfolio3.jpg') }}" class="owl-lazy w-full shadow-lg"></div>
         <div class="m-8 shadow-md rounded overflow-hidden"><img data-src="{{ asset('image/portfolio4.jpg') }}" src="{{ asset('image/portfolio4.jpg') }}" class="owl-lazy w-full shadow-lg"></div>
         <div class="m-8 shadow-md rounded overflow-hidden"><img data-src="{{ asset('image/portfolio5.jpg') }}" src="{{ asset('image/portfolio5.jpg') }}" class="owl-lazy w-full shadow-lg"></div>
+        <div class="m-8 shadow-md rounded overflow-hidden"><img data-src="{{ asset('image/FILE0363.jpg') }}" src="{{ asset('image/FILE0363.jpg') }}" class="owl-lazy w-full shadow-lg"></div>
     </div>
 </section>
 
